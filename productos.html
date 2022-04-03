@@ -4,7 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Productos</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="javaScript/alertifyjs/css/themes/default.css">
+  <link rel="stylesheet" type="text/css" href="javaScript/alertifyjs/css/alertify.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="javaScript/jquery-3.2.1.min.js"></script>
+  <script src="javaScript/alertifyjs/alertify.js"></script>	
+  <link rel="stylesheet" type="text/css" href="css.seba/seba.css">
 </head>
 <body>
     <header>
@@ -14,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Quienes Somos<span class="sr-only">(current)</span></a>
@@ -42,6 +53,291 @@
           </div>
         </nav>
         </header>
-    
+        <div class="container col-12">
+          <div class="row">
+           <div class="listado col-12">
+             <h1 id="list">Lo m&aacute;s vendidos</h1>
+           </div>
+       
+           <div class="col-sm-3">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/air force one.jpg"></h5>
+               <p class="card-text">
+                   <label id="zapatos">Air force one</label>
+               precio: $70.000.CLP</p>
+               <p class="collapse" id="collapseExample">
+               informacion zapato air force one
+         </p>
+               <p class="card-text text-right">
+                   <a class="btn btn-primary" href="#" role="button">Link</a>   
+               <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" href="#" class="btn bt-success">mas >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/retro 4.jpg"></h5>
+               <p class="card-text"><label id="zapatos">retro 4</label>
+               precio: $150.000 .CLP</p>
+               <p class="collapse" id="collapseExample2">
+           zapato jordan retro 4
+         </p>
+               <p class="card-text text-right">
+               <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample"   href="#" class="btn bt-success">Más >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/balenciaga.jpg"></h5>
+               <p class="card-text"><label id="desayuno">Balenciaga triple s</label>
+               precio: $750000.CLP</p>
+               <p class="collapse" id="collapseExample3">
+           Balenciaga triple s diseños 
+         </p>
+               <p class="card-text text-right">
+               <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" href="#" class="btn bt-success">Más >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card ">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/adidas.jpg"></h5>
+               <p class="card-text"><label id="zapatos">Adiddas premier</label>
+               precio: $90.000.CLP</p>
+              <p class="collapse" id="collapseExample4">
+           Adiddas premier series
+         </p>
+               <p class="card-text text-right">
+               <a data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample" href="#" class="btn bt-success">Más >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/nike dior.jpg"></h5>
+               <p class="card-text"><label id="zapatos">Nike dior</label>
+               precio: $12000000</p>
+          <p class="collapse" id="collapseExample5">
+           modelo exclusivo nike jordan x dior
+         </p>
+               <p class="card-text text-right">
+               <a data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample" href="#" class="btn bt-success">Más >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/versace.jpg"></h5>
+               <p class="card-text"><label id="zapatos">versace</label>
+               Incluye: $850.000 .clp</p>
+               <p class="collapse" id="collapseExample6">
+           versase sneakers serie pre
+         </p>
+               <p class="card-text text-right">
+               <a data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample" href="#" class="btn bt-success">Más >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/balenciaga 3p3.png"></h5>
+               <p class="card-text"><label id="zapatos">Balenciaga royal</label>
+               precio: $350000</p>
+               <p class="collapse" id="collapseExample7">
+          balenciaga new school 3p
+         </p>
+               <p class="card-text text-right">
+               <a data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample" href="#" class="btn bt-success">Más >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card ">
+             <div class="card-body">
+               <h5 class="card-title text-center"><img id="img_obs" src="imagenes/kerwim.jpg"></h5>
+               <p class="card-text"><label id="zapatos">adiddas kerwin frost</label>
+               precio: $250.000</p>
+               <p class="collapse" id="collapseExample8">
+           adiddas kerwin frost lla
+         </p>
+               <p class="card-text text-right">
+               <a data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample" href="#" class="btn bt-success">Más >></a>
+             </p>
+             </div>
+           </div>
+         </div>
+          </div>
+        </div>
+       
+           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Registro de Clientes</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+               <h6>Nombre Completo</h6>
+               <div class="input-group mb-3">
+       
+         <div class="input-group-prepend">
+           
+           <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+         </div>
+         <input type="text" class="form-control" id="completo" placeholder="Nombres Apellidos" aria-label="Username" aria-describedby="basic-addon1">
+       </div>
+       <h6>Dirección</h6>
+       <div class="input-group mb-3">
+         <div class="input-group-prepend">
+         
+           <span class="input-group-text" id="basic-addon1"><i class="fa fa-home"></i></span>
+         </div>
+         <input type="text" class="form-control" id="dir" placeholder="Av 17 N 3-35" aria-label="Username" aria-describedby="basic-addon1">
+       </div>
+       <h6>Email</h6>
+       <div class="input-group mb-3">
+         <div class="input-group-prepend">
+           
+           <span class="input-group-text"  id="basic-addon1"><i class="fa fa-envelope"></i></span>
+         </div>
+         <input type="email" id="email" class="form-control" placeholder="Correo Electrónico" aria-label="Username" aria-describedby="basic-addon1">
+       </div>
+       <h6>Telefono</h6>
+       <div class="input-group mb-3">
+         <div class="input-group-prepend">
+           
+           <span class="input-group-text"  id="basic-addon1"><i class="fa fa-phone"></i></span>
+         </div>
+         <input type="text" id="tel" class="form-control" placeholder="3157876185" aria-label="Username" aria-describedby="basic-addon1">
+       </div>
+       <h6>Password</h6>
+       <div class="input-group mb-3">
+         <div class="input-group-prepend">
+           
+           <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
+         </div>
+         <input type="password" minlength="6" id="pass1"  class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+         <input type="password" minlength="6" id="pass2"  class="form-control" placeholder="Confirmación" aria-label="Username" aria-describedby="basic-addon1">
+        
+       </div>
+        <h6 id="min">Mínimo 6 Caracteres</h6>
+             </div>
+             <div id="boton" class="modal-footer text-left">
+               
+               <input type="submit" value="Registrarse" id="registrar" class="btn btn-primary" data-dismiss="modal" />
+             </div>
+           </div>
+         </div>
+       </div>
+       
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Contacto de Clientes</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+               <h6>Nombre Completo</h6>
+               <div class="input-group mb-3">
+       
+         <div class="input-group-prepend">
+           
+           <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+         </div>
+         <input type="text" id="nombre" class="form-control" placeholder="Nombres Apellidos" aria-label="Username" aria-describedby="basic-addon1">
+       </div>
+       <h6>Email</h6>
+       <div class="input-group mb-3">
+         <div class="input-group-prepend">
+           
+           <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+         </div>
+         <input type="email" id="mail" class="form-control" placeholder="Correo Electrónico" aria-label="Username" aria-describedby="basic-addon1">
+       </div>
+       <h6>Mensaje</h6>
+       <div class="input-group">
+       
+         <textarea class="form-control" id="campo" aria-label="With textarea"></textarea>
+       </div>
+       
+        
+             </div>
+             <div id="boton" class="modal-footer text-left">
+               
+               <input type="submit" value="Contactar" id="contactar" class="btn btn-primary" data-dismiss="modal" />
+             </div>
+           </div>
+         </div>
+       </div>
+       
+       
+        <footer class = "footer">
+               <div id="cont"  class = "container col-12">
+                 <div class="row">
+                  <div  class="col-sm-12 text-center">
+                   <h2 id="titulo">¿como comprar en Gang Shoes experience?</h2>
+                  </div>
+                  <div class="col-sm-4 text-center">
+                   <img id="img_footer" src="imagen/canino.jpg">
+                   <p id="mensajito">
+                   </p>
+                  </div>
+                  <div class="col-sm-4 text-center">
+                    <img id="img_footer" src="imagen/icono.png">
+                    <p id="mensajito">2. Define tu forma de pago
+                   </p>
+                  </div>
+                  <div class="col-sm-4 text-center">
+                    <img id="img_footer" src="imagen/1000.png">
+                    <p id="mensajito">3. Nosotros te lo enviamos a tu casa gratis
+                   </p>
+                  </div>
+                </div>
+               </div>
+               <div id="cont2"  class = "container col-12">
+                 <div class="row">
+                  <div  class="col-sm-12 text-left">
+                   <h2 id="titulo2">Paquetes Especiales a tu Medida</h2>
+                </div>
+                 <div class="col-sm-6 text-left">
+                   
+                   <p id="mensajito2">           
+                   </p>
+                  </div>
+                  <div class="col-sm-3 text-center">
+                    <img id="img_footer2" src="imagen/icono.png">
+                    <p id="mensajito">2. Define tu forma de pago
+                   </p>
+                  </div>
+                  <div class="col-sm-3 text-center">
+                    <img id="img_footer2" src="imagen/1000.png">
+                    <p id="mensajito">3. Nosotros te lo enviamos a tu casa gratis
+                   </p>
+                  </div>
+               </div>
+           </footer>
+       
+        <script src="js/indexjs.js"></script>
+
 </body>
 </html>
