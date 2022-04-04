@@ -25,7 +25,7 @@
 }
 
 .listado {
-    border-bottom: 1px solid gray;
+    border-bottom: 0px solid gray;
 }
 
 #img_obs {
@@ -93,12 +93,12 @@ h6 {
 }
 
 #cont {
-    background-color: #F9305D;
+    background-color: #30f952;
 }
 
 #titulo {
     color: black;
-    font-family: arial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 30px;
@@ -116,6 +116,7 @@ h6 {
 #img_footer {
     height: 50px;
     transition: transform 0.6s;
+    text-align: center;
 
 }
 
@@ -138,10 +139,12 @@ h6 {
 }
 
 #mensajito {
-    color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     width: 40%;
     margin: 0px auto;
+    margin-bottom: 30px;
 }
 
 #mensajito2 {
@@ -157,4 +160,11 @@ h6 {
 }
 .zapCentro{
     text-align: center;
+}
+.navbar-custom{
+    background: #30f952;
+}
+ .navbar-brand,
+ .navbar-text {
+    color: black;
 }
