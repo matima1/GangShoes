@@ -74,11 +74,10 @@
 }
 .carrucelcen
 {
-    float:left;
     margin-top: 75px;
-    margin-left: 45px;
+    margin-left: 0px;
     height: 350px;
-    width: 550px;
+    width: 1500px;
     margin-bottom: 150px;
     margin-right: 100px;
     
@@ -115,7 +114,7 @@ background-color: rgb(160, 180, 47);
 }
 
 #cont {
-    background-color: #a4a4a4;
+    background-color: #FFD700;
 }
 
 #titulo {
@@ -185,9 +184,10 @@ background-color: rgb(160, 180, 47);
     text-align: center;
 }
 .navbar-custom{
-    background: #FFD700;
+    background: grey;
 }
  .navbar-brand,
  .navbar-text {
     color: black;
 }
+
