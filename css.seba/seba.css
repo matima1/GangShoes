@@ -65,6 +65,25 @@
     display: block;
 }
 
+
+.cjtxt
+{
+    
+    margin-left: 100px;
+
+}
+    .carrucelcen
+{
+    float:left;
+    margin-top: 75px;
+    margin-left: 45px;
+    height: 350px;
+    width: 550px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    
+}
+
 h6 {
     text-align: left;
 }
@@ -81,6 +100,9 @@ h6 {
 
 #tex_area {
     width: 100%;
+}
+#cont{
+background-color: rgb(160, 180, 47);
 }
 
 #cuerpo {
