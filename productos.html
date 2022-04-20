@@ -24,6 +24,7 @@
   <script src="javaScript/jquery-3.2.1.min.js"></script>
   <script src="javaScript/alertifyjs/alertify.js"></script>
   <link rel="stylesheet" type="text/css" href="css.seba/seba.css">
+  <link rel="stylesheet" type="text/css" href="css.ignacio/zoom.css">
 </head>
 
 <body>
@@ -53,7 +54,8 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link navbar-text" data-toggle="modal" data-target="#exampleModal" href="#">Reg&iacute;strate</a>
+              <a class="nav-link navbar-text" data-toggle="modal" data-target="#exampleModal"
+                href="#">Reg&iacute;strate</a>
             </li>
           </ul>
         </form>
@@ -90,6 +92,8 @@
       </a>
     </div>
   </header>-->
+
+
   <!--PRIMERAS 4 ZAPATILLAS-->
   <div style="margin-bottom: 30px;">
     <div class="container col-sm-12">
@@ -98,64 +102,72 @@
           <h1 id="titulo">Todos los Modelos</h1>
         </div>
         <!--PRIMERA ZAPATILLA-->
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/airForce.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">Nike</label></h3>
-              <h4 class="zapCentro">Air Force One</h4>
-              <h6 class="zapCentro">Precio:$70.000</h6>
-              <p class="collapse" id="collapseExample"></p>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="AF1.html" role="button">Ver ahora</a>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top" id="img_obs" src="imgZap/airForce.jpg">
+                <h3 class="zapCentro"><label class="card-text">Nike</label></h3>
+                <h4 class="zapCentro">Air Force One</h4>
+                <h6 class="zapCentro">Precio:$70.000</h6>
+                <p class="collapse" id="collapseExample"></p>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="AF1.html" role="button">Ver ahora</a>
 
-              </p>
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <!--SEGUNDA ZAPATILLA-->
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/adidasSup.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">Adidas</label></h3>
-              <h4 class="zapCentro">Stan Smith Winterized</h4>
-              <h6 class="zapCentro">Precio:$90.000</h6>
-              <p class="collapse" id="collapseExample2">...</p>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="AdidaStan.html" role="button">Ver ahora</a>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img id="img_obs" src="imgZap/adidasSup.jpg"></h5>
+                <h3 class="zapCentro"><label class="card-text">Adidas</label></h3>
+                <h4 class="zapCentro">Stan Smith Winterized</h4>
+                <h6 class="zapCentro">Precio:$90.000</h6>
+                <p class="collapse" id="collapseExample2">...</p>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="AdidaStan.html" role="button">Ver ahora</a>
 
-              </p>
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <!--TERCERA ZAPATILLA-->
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/adidasWoman.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">adidas Originals</label></h3>
-              <h4 class="zapCentro">Ozweego</h4>
-              <h6 class="zapCentro">Precio:$120.000</h6>
-              <p class="collapse" id="collapseExample3">...</p>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="AdidasOriginals.html" role="button">Ver ahora</a>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img id="img_obs" src="imgZap/adidasWoman.jpg"></h5>
+                <h3 class="zapCentro"><label class="card-text">adidas Originals</label></h3>
+                <h4 class="zapCentro">Ozweego</h4>
+                <h6 class="zapCentro">Precio:$120.000</h6>
+                <p class="collapse" id="collapseExample3">...</p>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="AdidasOriginals.html" role="button">Ver ahora</a>
 
-              </p>
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <!--CUARTA ZAPATILLA-->
-        <div class="col-sm-3">
-          <div class="card ">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/vapormax.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">Nike</label></h3>
-              <h4 class="zapCentro">Air Vapor Max Plus</h4>
-              <h6 class="zapCentro">Precio:$210.000</h6>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="NikeAir.html" role="button">Ver ahora</a>
-              </p>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card ">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img id="img_obs" src="imgZap/vapormax.jpg"></h5>
+                <h3 class="zapCentro"><label class="card-text">Nike</label></h3>
+                <h4 class="zapCentro">Air Vapor Max Plus</h4>
+                <h6 class="zapCentro">Precio:$210.000</h6>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="NikeAir.html" role="button">Ver ahora</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -167,63 +179,71 @@
     <div class="container col-sm-12">
       <div class="row">
         <!--QUINTA ZAPATILLA-->
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/crocs.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">Crocs</label></h3>
-              <h4 class="zapCentro">Classic Clog Print</h4>
-              <h6 class="zapCentro">Precio: $55.000</h6>
-              <p class="collapse" id="collapseExample5"></p>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="Crocs.html" role="button">Ver ahora</a>
-              </p>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img id="img_obs" src="imgZap/crocs.jpg"></h5>
+                <h3 class="zapCentro"><label class="card-text">Crocs</label></h3>
+                <h4 class="zapCentro">Classic Clog Print</h4>
+                <h6 class="zapCentro">Precio: $55.000</h6>
+                <p class="collapse" id="collapseExample5"></p>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="Crocs.html" role="button">Ver ahora</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <!--SEXTA ZAPATILLA-->
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/converse.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">Converse</label></h3>
-              <h4 class="zapCentro">All Star Platform Low Top</h4>
-              <h6 class="zapCentro">Precio: $65.000</h6>
-              <p class="collapse" id="collapseExample6"></p>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="Converse.html" role="button">Ver ahora</a>
-              </p>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img id="img_obs" src="imgZap/converse.jpg"></h5>
+                <h3 class="zapCentro"><label class="card-text">Converse</label></h3>
+                <h4 class="zapCentro">All Star Platform Low Top</h4>
+                <h6 class="zapCentro">Precio: $65.000</h6>
+                <p class="collapse" id="collapseExample6"></p>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="Converse.html" role="button">Ver ahora</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <!--SEPTIMA ZAPATILLA-->
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/puma.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">PUMA</label></h3>
-              <h4 class="zapCentro">PUMA x Bratz Mayze</h4>
-              <h6 class="zapCentro">Precio: $100.000</h6>
-              <p class="collapse" id="collapseExample6"></p>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="Puma.html" role="button">Ver ahora</a>
-              </p>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img id="img_obs" src="imgZap/puma.jpg"></h5>
+                <h3 class="zapCentro"><label class="card-text">PUMA</label></h3>
+                <h4 class="zapCentro">PUMA x Bratz Mayze</h4>
+                <h6 class="zapCentro">Precio: $100.000</h6>
+                <p class="collapse" id="collapseExample6"></p>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="Puma.html" role="button">Ver ahora</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <!--OCTAVA ZAPATILLA-->
 
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-center"><img id="img_obs" src="imgZap/rebook.jpg"></h5>
-              <h3 class="zapCentro"><label class="card-text">Reebok</label></h3>
-              <h4 class="zapCentro">Workout Plus Human</h4>
-              <h6 class="zapCentro">Precio: $90.000</h6>
-              <p class="collapse" id="collapseExample6"></p>
-              <p class="card-text text-right">
-                <a class="btn btn-primary" href="Reebok.html" role="button">Ver ahora</a>
-              </p>
+        <div class="col-sm-3 image">
+          <div id="zoom-In">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img id="img_obs" src="imgZap/rebook.jpg"></h5>
+                <h3 class="zapCentro"><label class="card-text">Reebok</label></h3>
+                <h4 class="zapCentro">Workout Plus Human</h4>
+                <h6 class="zapCentro">Precio: $90.000</h6>
+                <p class="collapse" id="collapseExample6"></p>
+                <p class="card-text text-right">
+                  <a class="btn btn-primary" href="Reebok.html" role="button">Ver ahora</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
