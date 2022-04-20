@@ -1,0 +1,15 @@
+.image img{
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.image #zoom-In img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.image #zoom-In:hover img{
+    transform: scale(1.5);
+
+}
