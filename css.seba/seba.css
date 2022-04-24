@@ -190,4 +190,55 @@ background-color: rgb(160, 180, 47);
  .navbar-text {
     color: black;
 }
+/*Gaetee */
+.search_box{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background: #2C3441;
+    height: 35px;
+    border-radius: 35px;
+    padding: 10px;
+}
 
+.search_box:hover>input{
+    width: 190px;
+    padding: 0 10px;
+
+}
+.search_box:hover>.icon{
+    background: #536179;
+}
+
+.icon:hover{
+    transform: rotate(360deg)
+    scale(0.8);
+}
+
+input{
+    width: 0;
+    border: none;
+    outline: none;
+    padding: 0;
+    background: none;
+    font-size: 1.1rem;
+    transition: 0.5s ease;
+    line-height: 40px;
+    color: #fff;
+}
+.icon{
+    color: #f50c5a;
+    float: right;
+    width: 35px;
+    font-size: 1.3rem;
+    height: 35px;
+    border-radius: 40%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
