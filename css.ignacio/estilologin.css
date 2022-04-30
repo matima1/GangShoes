@@ -61,7 +61,7 @@ body {
     outline: none;
     height: 40px;
     background: rgb(217, 255, 0);
-    color: #fff;
+    color: #000;
     font-size: 18px;
     border-radius: 20px;
 }
@@ -72,10 +72,6 @@ body {
     color: darkgray;
 }
 .login-box a:hover{
-    color: #fff;
-}
-
-.login-box input[type="submit"]:hover{
     color: #fff;
 }
 
