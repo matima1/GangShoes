@@ -5,9 +5,9 @@
     cursor: pointer;
 }
 .image #zoom-In img{
-    transform: scale(1);
+    transform: scale(0.5);
     transition: 0.3s ease-in-out;
 }
 .image #zoom-In:hover img{
-    transform: scale(1.5);
+    transform: scale(1);
 }

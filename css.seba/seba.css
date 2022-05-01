@@ -114,7 +114,7 @@ background-color: rgb(160, 180, 47);
 }
 
 #cont {
-    background-color: #FFD700;
+    background-color: #c32fe7;
 }
 
 #titulo {
@@ -186,7 +186,7 @@ background-color: rgb(160, 180, 47);
     text-align: center;
 }
 .navbar-custom{
-    background: grey;
+    background: #c32fe7;
 }
  .navbar-brand,
  .navbar-text {
