@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reebok</title>
+  <title>edit</title>
 </head>
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -92,19 +92,27 @@
       <div class="col-md-4">
 
         <div class="contenedor__login-register">
-          <h1 style="margin-top: 25px;">Ingresar datos</h1>
-
-        
-          <div style="margin-top: 40px;" class="form-group">
+          <h1 style="margin-top: 100px;">Ingresar datos</h1>
             
-            <label> <h3>nombre</h3></label><br>
-            <input class="form-control" type="text" name="l1">
-            <label> <h3>Precio</h3></label><br>
-            <input class="form-control" type="text" name="l1">
-            <label> <h3>descripcion</h3></label><br>
-            <input class="form-control" type="text" name="l1">
-            <label for="javascript">JavaScript</label><br><br>
-            <input type="submit" value="Submit">
+            <form action="" method="post" name="formulario" id="form1">
+              <div class="form-group " style="margin-top: 60px;">
+                  <label class="colorl">Nombre del modelo </label>
+                  <input type="text" id="nom" class="form-control" required>
+              </div>
+              <div class="form-group">
+ 
+                 <label class="colorl mgt"> Precio </label>
+                 <input type="text" id="Precio" class="form-control " >
+              </div>
+              <div class="form-group">
+                 <label class="colorl mgt">Desripcion</label>
+                 <input type="text" id="desc" class="form-control " >
+              </div>
+ 
+              <a class="btn btn-primary" href="#" role="button">guardar cambios</a>
+ 
+              <p id="mensajes" class="colorl"></p>
+         </form>  
             
         </div>
         </div>
