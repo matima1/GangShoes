@@ -13,6 +13,7 @@ var caja_trasera_register = document.querySelector(".caja__trasera-register");
     //FUNCIONES
 
 function anchoPage(){
+
     if (window.innerWidth > 850){
         caja_trasera_register.style.display = "block";
         caja_trasera_login.style.display = "block";
@@ -25,6 +26,7 @@ function anchoPage(){
         formulario_register.style.display = "none";   
     }
 }
+
 anchoPage();
 
 

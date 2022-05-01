@@ -5,28 +5,3 @@
 .margen{
     margin-top: 100px;
 }
-.centrar{
-    text-align: center;
-}
-.comentario-clientes{
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    margin: 10px;
-}
-.nombre-comentario{
-    
-    text-align: center;
-}
-.comentario-usuario{
-    text-align: center;
-}
-.comentario{
-    height: 100px;
-}
-.enviar{
-    margin: 5px;
-    padding: 5px;
-    max-width: 100px;
-    color: #ffff;
-    outline: none;
-}
