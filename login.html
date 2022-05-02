@@ -32,24 +32,26 @@
                 <!--Login-->
                 <form action="" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
-                    <button>Entrar</button>
+                    <input type="text" placeholder="Correo Electronico" name="correo" id="correo">
+                    <input type="password" placeholder="Contraseña" name="password" id="password">
+                    <button type="submit" class="button_login">Entrar</button>
                 </form>
                 <!--Register-->
-                <form action="" class="formulario__register">
+                <form action="" class="formulario__register" id="formulario__register">
                     <h2>Regístrarse</h2>
-                    <input type="text" id="nombre" placeholder="Nombre">
-                    <input type="text" id="apellido" placeholder="Apellido">
-                    <input type="email" placeholder="Correo Electronico">
-                    <input type="tel" placeholder="Telefono">
-                    <input type="password" placeholder="Contraseña">
-                    <button>Regístrarse</button>
+                    <input type="text" id="usuarioregistro" placeholder="Usuario" name="usuarioregistro">
+                    <input type="text" id="nombre" placeholder="Nombre" name="nombre" id="nombre">
+                    <input type="text" id="apellido" placeholder="Apellido" name="apellido" id="apellido">
+                    <input type="email" placeholder="Correo Electronico" name="correoregistro" id="correoregistro">
+                    <input type="tel" placeholder="Telefono" name="telefono" id="telefono">
+                    <input type="password" placeholder="Contraseña" name="passwordregistro" id="passwordregistro">
+                    <button type="submit" class="button_registro">Regístrarse</button>
                 </form>
             </div>
         </div>
     </main>
     <script src="js.ignacio/script.js"></script>
+    <script src="js.ignacio/valid_login.js"></script>
 </body>
 
 </html>
