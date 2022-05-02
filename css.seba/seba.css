@@ -131,14 +131,13 @@ background-color: rgb(160, 180, 47);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-top: 65px;
-    margin-bottom: 65px;
+    margin-top: 5px;
 }
 
 #img_footer {
     height: 50px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 75px;
     transition: 0.3s ease-in-out;
 
 }
