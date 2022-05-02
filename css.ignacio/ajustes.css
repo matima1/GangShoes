@@ -1,7 +1,10 @@
 .ajuste{
     max-width: 500px;
 }
-
+.centrar{
+    text-align: center;
+    margin: 50px;
+}
 .margen{
     margin-top: 100px;
 }
@@ -16,8 +19,6 @@
     margin: 5px;
     color: white;
 }
-
-
 .submenu {
     position: relative;
 }
