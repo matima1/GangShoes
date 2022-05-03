@@ -123,6 +123,7 @@
         </div>
       </div>
     </div>
+    <!-- COMENTARIOS -->
     <div class="row">
       <div class="col">
         <h1 class="centrar">
@@ -130,9 +131,15 @@
         </h1>
         <div class="form-group caja-comentario">
           <label> ¿Cuentanos tu opinion? </label>
+
+          <form action="" id="form-comentario">
           <textarea name="comentario" id="com1" cols="30" rows="10" style="height: 100px;"
             class="form-control comentario" placeholder="Escriba su comentario"></textarea>
-          <input type="button" name="enviar" value="Enviar" class="form-control bg-primary enviar">
+
+          <input type="submit" name="enviar" value="Enviar" class="form-control bg-primary enviar">
+
+          <p id="msjComentario" class="colorLetra"></p>
+        </form>
         </div>
       </div>
       <div class="comentario-clientes">
@@ -156,14 +163,11 @@
           repellat.</p>
       </div>
     </div>
+
+
   </div>
-
-
-
+  </div>
   <hr style="clear:both">
-
-
-
   <footer class="footer">
     <div id="cont" class="container col-12">
       <div class="row">
@@ -196,6 +200,7 @@
   </footer>
   <script src="js/indexjs.js">
   </script>
+  <script src="js.ignacio/valid_comentario.js"></script>
 </body>
 
 </html>
