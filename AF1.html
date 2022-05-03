@@ -128,9 +128,15 @@
         </h1>
         <div class="form-group caja-comentario">
           <label> ¿Cuentanos tu opinion? </label>
+
+          <form action="" id="form-comentario">
           <textarea name="comentario" id="com1" cols="30" rows="10" style="height: 100px;"
             class="form-control comentario" placeholder="Escriba su comentario"></textarea>
-          <input type="button" name="enviar" value="Enviar" class="form-control bg-primary enviar">
+
+          <input type="submit" name="enviar" value="Enviar" class="form-control bg-primary enviar">
+
+          <p id="msjComentario" class="colorLetra"></p>
+        </form>
         </div>
       </div>
       <div class="comentario-clientes">
@@ -191,6 +197,7 @@
   </footer>
   <script src="js/indexjs.js">
   </script>
+  <script src="js.ignacio/valid_comentario.js"></script>
 </body>
 
 </html>
