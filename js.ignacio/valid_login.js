@@ -1,10 +1,13 @@
-
 //REGISTRO VALIDACIONES
 const form = document.getElementById("formulario__register");
+//  EXPRESIONES REGULARES
+const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
+const regexTel = /^(\+?56)?(\s?)(0?9)(\s?)[9876543]\d{7}$/;
+const regexPas = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/;
 
 var nom = document.getElementById("nombre");
 var apel = document.getElementById("apellido");
-var correoRegistro = document.getElementById("correoregistro");
+var correo = document.getElementById("correoregistro");
 
 var tel = document.getElementById("telefono");
 var passR = document.getElementById("passwordregistro");
@@ -16,7 +19,6 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   let msjMostrar = "";
-  let expReg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
   let entrarRegistro = false;
 
   //         NOMBRE
@@ -30,10 +32,24 @@ form.addEventListener("submit", (e) => {
     entrarRegistro = true;
   }
   //          CORREO
-  if (!expReg.test(correoRegistro.value)) {
-    msjMostrar += "El email no valido <br>";
+  if (!regexEmail.test(correo.value)) {
+    msjMostrar += "El email no es valido <br>";
     entrarRegistro = true;
   }
+  //            TELEFONO
+  if (!regexTel.test(tel.value)) {
+    msjMostrar += "El telefono no es valido<br>";
+    entrarRegistro = true;
+  }
+  //           CONTRASEÑA
+  if (!regexPas.test(passR.value)) {
+    msjMostrar += "Contraseña incorrecta, intente nuevamente <br>";
+    entrarRegistro = true;
+  }
+  if (passR != passR2) {
+    msjMostrar += "Contraseña no coinciden"
+    entrarRegistro = true;
+  } 
 
   // Con esto validamos que la letra sea mayuscula del nombre y el apellido
   var letraInicialNombre = nom.value.charAt(0);
