@@ -19,8 +19,8 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(isNaN(telefono) || telefono.length != 10){
-      text = "Please Enter valid Phone Number";
+    if(isNaN(telefono) || telefono.length != 8){
+      text = "Ingrese un numero de telefono valido";
       error_message.innerHTML = text;
       return false;
     }
