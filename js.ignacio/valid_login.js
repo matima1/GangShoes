@@ -4,15 +4,15 @@ const form = document.getElementById("formulario__register");
 const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
 const regexTel = /^(\+?56)?(\s?)(0?9)(\s?)[9876543]\d{7}$/;
 const regexPas = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/;
-
+// VALIDACIONES
 var nom = document.getElementById("nombre");
 var apel = document.getElementById("apellido");
 var correo = document.getElementById("correoregistro");
-
 var tel = document.getElementById("telefono");
 var passR = document.getElementById("passwordregistro");
 var passR2 = document.getElementById("passwordregistro2");
 
+//MENSAJE QUE ENVIAREMOS
 var msj = document.getElementById("mensaje");
 
 form.addEventListener("submit", (e) => {
@@ -36,12 +36,12 @@ form.addEventListener("submit", (e) => {
     msjMostrar += "El email no es valido <br>";
     entrarRegistro = true;
   }
-  //            TELEFONO
+  //          TELEFONO
   if (!regexTel.test(tel.value)) {
     msjMostrar += "El telefono no es valido<br>";
     entrarRegistro = true;
   }
-  //           CONTRASEÑA
+  //          CONTRASEÑA
   if (!regexPas.test(passR.value)) {
     msjMostrar += "Contraseña incorrecta, intente nuevamente <br>";
     entrarRegistro = true;
