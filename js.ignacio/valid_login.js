@@ -9,7 +9,7 @@ var correoRegistro = document.getElementById("correoregistro");
 
 var tel = document.getElementById("telefono");
 var pRegistro = document.getElementById("passwordregistro");
-var msj = document.getElementById("mensaje");
+var correo = document.getElementById("mail").value; 
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
