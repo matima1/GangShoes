@@ -20,6 +20,8 @@ form.addEventListener("submit", (e) => {
 
   let msjMostrar = "";
   let entrarRegistro = false;
+console.log(passR);
+console.log(passR2);
 
   //         NOMBRE
   if (nom.value.length < 2 || nom.value.length > 10) {
@@ -46,7 +48,7 @@ form.addEventListener("submit", (e) => {
     msjMostrar += "Contraseña incorrecta, intente nuevamente <br>";
     entrarRegistro = true;
   }
-  if (passR != passR2) {
+  if (passR.value != passR2.value) {
     msjMostrar += "Contraseña no coinciden"
     entrarRegistro = true;
   } 
