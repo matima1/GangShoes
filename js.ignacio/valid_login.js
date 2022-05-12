@@ -20,16 +20,14 @@ form.addEventListener("submit", (e) => {
 
   let msjMostrar = "";
   let entrarRegistro = false;
-console.log(passR);
-console.log(passR2);
 
   //         NOMBRE
-  if (nom.value.length < 2 || nom.value.length > 10) {
+  if (nom.value.length < 2 || nom.value.length > 20) {
     msjMostrar += "Longitud invalida del Nombre, intente nuevamente <br>";
     entrarRegistro = true;
   }
   //         APELLIDO
-  if (apel.value.length < 2 || apel.value.length > 10) {
+  if (apel.value.length < 2 || apel.value.length > 20) {
     msjMostrar += "Longitud invalida del Apellido, intente nuevamente <br>";
     entrarRegistro = true;
   }
