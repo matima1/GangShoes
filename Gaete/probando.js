@@ -1,5 +1,5 @@
 //CONTACTO VALIDACIONES
-const form = document.getElementById("formulariomio");
+const form = document.getElementById("formx");
 var nom = document.getElementById("nombre");
 
 form.addEventListener("submit", (e) => {
@@ -9,17 +9,52 @@ form.addEventListener("submit", (e) => {
 
   let contacto = false;
 
-  //         NOMBRE
-  if (nom.value.length < 3 || nom.value.length > 10 & apel.value.length < 3 || apel.value.length > 10) {
-    mensajeNombreApellido += "Longitud invalida del Nombre o Apellido, intente nuevamente <br>";
-    contacto = true;
-  }
-  // Con esto validamos que la letra sea mayuscula del nombre y el apellido
-  var letraInicialNombre = nom.value.charAt(0);
-  if (!esMayuscula(letraInicialNombre) || !esMayuscula(letraInicialApellido)) {
-    mensajeNombreApellido += "La primera letra es minúscula del Nombre o Apellido <br>";
-    contacto = true;
-  }
+  function validanombre(){
+    var elemento = document.getElementById("nombre");
+    if(elemento.value == ""){
+        alert ("El campo no puede quedar vacio ");
+        return false;
+    }
+    return true;
+}
+
+function validaemail(){
+    var elemento = document.getElementById("email");
+    if(email.elemento("@") == -1 || email.length < 6){       
+        alert("Completa correctamente tu email.");
+        return false;
+    }
+    return true;
+}    
+
+
+
+function validatelefono(){
+    var elemento = document.getElementById("telefono");
+    if( isNaN(elemento.value)){
+        alert("el campo debe ser numerico");
+        return false;
+    }
+    return true;
+}
+
+    function validaasunto(){
+        var elemento = document.getElementById("asunto");
+        if(elemento.value == ""){
+            alert ("El campo no puede quedar vacio ");
+            return false;
+        }
+        return true;
+}
+
+function validaasunto(){
+    var elemento = document.getElementById("comentario");
+    if(elemento.value == ""){
+        alert ("El campo no puede quedar vacio ");
+        return false;
+    }
+    return true;
+}
 
 
 

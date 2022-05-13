@@ -22,12 +22,12 @@ form.addEventListener("submit", (e) => {
   let entrarRegistro = false;
 
   //         NOMBRE
-  if (nom.value.length < 2 || nom.value.length > 10) {
+  if (nom.value.length < 2 || nom.value.length > 20) {
     msjMostrar += "Longitud invalida del Nombre, intente nuevamente <br>";
     entrarRegistro = true;
   }
   //         APELLIDO
-  if (apel.value.length < 2 || apel.value.length > 10) {
+  if (apel.value.length < 2 || apel.value.length > 20) {
     msjMostrar += "Longitud invalida del Apellido, intente nuevamente <br>";
     entrarRegistro = true;
   }
@@ -46,7 +46,7 @@ form.addEventListener("submit", (e) => {
     msjMostrar += "Contraseña incorrecta, intente nuevamente <br>";
     entrarRegistro = true;
   }
-  if (passR != passR2) {
+  if (passR.value != passR2.value) {
     msjMostrar += "Contraseña no coinciden"
     entrarRegistro = true;
   } 
