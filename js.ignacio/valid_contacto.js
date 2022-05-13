@@ -1,4 +1,4 @@
-const form = document.getElementById("formx");
+const form = document.getElementById("formulario");
 
 const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
 const regexTel = /^(\+?56)?(\s?)(0?9)(\s?)[9876543]\d{7}$/;

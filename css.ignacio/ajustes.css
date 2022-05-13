@@ -8,6 +8,12 @@
 .margen{
     margin-top: 100px;
 }
+.inicio_registrar{
+    text-align: right;
+}
+.footer_contacto{
+    max-width: 100%;
+}
 .comentario-clientes{
     background-color: #f2f2f2;
     border-radius: 20px;

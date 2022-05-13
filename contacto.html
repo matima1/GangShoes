@@ -23,26 +23,16 @@
     <header>
       <nav class="navbar navbar-custom navbar-expand-lg">
         <a class="navbar-brand" href="principal.html">Gang Shoes</a>
-        <button
-          class="navbar-dark navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link navbar-text" href="productos.html"
-                >Productos</a
-              >
+              <a class="nav-link navbar-text" href="productos.html">Productos</a>
             </li>
-
+    
             <li class="nav-item">
               <a class="nav-link navbar-text" href="contacto.html">Contacto</a>
             </li>
@@ -50,11 +40,9 @@
           <form class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link navbar-text" href="login.html"
-                  >Iniciar Sesión</a
-                >
+                <a class="nav-link navbar-text" href="login.html">Iniciar Sesión</a>
               </li>
-
+    
               <li class="nav-item">
                 <a class="nav-link navbar-text" href="login.html">Registrar</a>
               </li>
@@ -72,7 +60,7 @@
             <div class="formulario" id="formulariomio">
               <h1>Formulario de contacto</h1>
               <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
-              <form action="" method="post" id="formx" name="form1">
+              <form action="" method="post" id="formulario" name="form1">
                 <p>
                   <label for="nombre" class="colocar_nombre"
                     >Nombre
@@ -137,7 +125,7 @@
                     required
                   ></textarea>
                 </p>
-                <button class="button" type="submit" id="enviar">Enviar</button>
+                <button type="submit" class="button">Enviar</button>
                 <p class="mensaje" id="mensaje"></p>
               </form>
             </div>
@@ -149,8 +137,8 @@
     <script src="js.ignacio/valid_contacto"></script>
   </body>
 
-  <footer class="footer">
-    <div id="cont" class="container">
+  <footer class="footer_contacto">
+    <div id="cont" class="container footer_contacto">
       <div class="row">
         <div class="col-sm-3 text-center">
           <!-- MAPAA -->
@@ -163,7 +151,6 @@
             allowfullscreen="allowfullscreen"
             style="border: 0px"
           ></iframe>
-          <button onclick="find()">Mostrar</button>
           <div id="map"></div>
 
           <script>
